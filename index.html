@@ -14,12 +14,14 @@
 }
 
 .container {
+  border-radius: 5px;
     display: flex;
-    width: 900px;
+    width: 800px;
     margin: 50px auto;
 }
 
 .left-side {
+    border-radius: 5px 0 0 5px;
     background-color: #2874f0;
     color: white;
     padding: 20px;
@@ -36,6 +38,7 @@
 }
 
 .right-side {
+    border-radius: 0 5px 5px 0; 
     background-color: white;
     padding: 40px 30px;
     width: 60%;
@@ -95,6 +98,7 @@ form input {
 }
 
 .login-btn {
+    border-radius: 5px;
     background-color: #fb641b;
     color: white;
     border: none;
@@ -111,6 +115,7 @@ form input {
 }
 
 .otp-btn {
+    border-radius: 5px;
     background-color: white;
     color: #2874f0;
     border: 1px solid #ccc;
@@ -118,6 +123,9 @@ form input {
     width: 100%;
     cursor: pointer;
     font-weight: bold;
+}
+.otp-btn:hover {
+    background-color: #c3c4c5;
 }
 
 .signup {

@@ -11,46 +11,52 @@
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #f1f3f6;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
 
 .container {
-  border-radius: 5px;
+    border-radius: 5px;
     display: flex;
-    width: 800px;
-    margin: 50px auto;
+    width: 900px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
 }
 
 .left-side {
     border-radius: 5px 0 0 5px;
     background-color: #2874f0;
     color: white;
-    padding: 20px;
-    width: 40%;
+    padding: 40px;
+    width: 45%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
 
 }
 
 .left-side img {
     width: 100%;
-    margin-top: auto;
+    margin-top: 30px;
 }
 
 .right-side {
     border-radius: 0 5px 5px 0; 
     background-color: white;
-    padding: 40px 30px;
-    width: 60%;
+    padding: 50px 35px;
+    width: 55%;
 }
 
 form input {
     width: 100%;
     padding: 12px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    outline: none;
+    margin: 12px 0;
     border: none;
+    outline: none;
     border-bottom: 1px solid #ccc;
 }
 
@@ -58,42 +64,27 @@ form input {
     position: relative;
 }
 
-.pass input {
-    width: 90%;
-    padding: 12px;
-    padding-right: 50px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    outline: none;
-    border: none;
-    border-bottom: 1px solid #ccc;
-}
-
 .forgot-pass {
     position: absolute;
-    right: 10px;
+    right: 0;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 12px;
+    font-size: 13px;
     text-decoration: none;
     color: #2874f0;
     cursor: pointer;
 
 }
-
-
 .terms {
-    font-size: 12px;
-    color: #878787;
-    margin-bottom: 20px;
     font-size: 14px;
+    color: #878787;
+    margin: 20px 0;
 
 
 }
 
 .terms a {
     color: #2874f0;
-
     text-decoration: none;
 }
 
@@ -106,12 +97,14 @@ form input {
     width: 100%;
     cursor: pointer;
     font-weight: bold;
+    margin-bottom: 15px;
 }
 
 .or {
     text-align: center;
-    margin: 15px 0;
+    margin: 13px 0;
     color: #878787;
+    font-weight: bold;
 }
 
 .otp-btn {
@@ -123,14 +116,15 @@ form input {
     width: 100%;
     cursor: pointer;
     font-weight: bold;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.5)
 }
 .otp-btn:hover {
-    background-color: #c3c4c5;
+    background-color: #e6e7e9;
 }
 
 .signup {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 25px;
     font-size: 14px;
 }
 
